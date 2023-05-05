@@ -19,7 +19,7 @@ public:
     };
 
 public:
-    MAX30x(uint8_t pin_EN, uint8_t pin_A0, uint8_t pin_A1, uint8_t pin_A2);
+    MAX30x(uint8_t pin_EN, uint8_t pin_A0, uint8_t pin_A1, uint8_t pin_A2 = 0);
     void init();
     void switchTo(Channel channel);
     inline Channel getChannel() const

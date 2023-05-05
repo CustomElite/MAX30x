@@ -1,6 +1,6 @@
 #include "MAX30x.hpp"
 
-MAX30x::MAX30x(uint8_t pin_EN, uint8_t pin_A0, uint8_t pin_A1, uint8_t pin_A2 = 0)
+MAX30x::MAX30x(uint8_t pin_EN, uint8_t pin_A0, uint8_t pin_A1, uint8_t pin_A2)
   : m_pinEN(pin_EN),
   m_pinA0(pin_A0),
   m_pinA1(pin_A1),
